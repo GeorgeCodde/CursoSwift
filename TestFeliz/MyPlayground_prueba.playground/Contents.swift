@@ -26,6 +26,22 @@ opcional = nil
 
 //-----------------------------------------------
 
+let color  = UIColor(red: 30/255, green: 180/255, blue: 200/255, alpha:1)
+
+arc4random() % 180
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

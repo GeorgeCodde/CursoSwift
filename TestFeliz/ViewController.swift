@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     
     //Modificacion 1
     
+    @IBOutlet weak var mensajePos: UILabel!
+    let colores = Colores()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,6 +28,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func dameUnMensajePos() {
+            mensajePos.text = "Este es el cambio"
+            let colorAle = colores.regresaColorAle()
+            view.backgroundColor = colorAle
+            view.tintColor = colorAle
+    }
 
 }
 
