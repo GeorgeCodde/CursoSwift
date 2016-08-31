@@ -15,8 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mensajePos: UILabel!
     let colores = Colores()
-    
-    
+    let frases = Nombres ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +28,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func dameUnMensajePos() {
-            mensajePos.text = "Este es el cambio"
+            mensajePos.text = frases.regresaFrase()
             let colorAle = colores.regresaColorAle()
             view.backgroundColor = colorAle
             view.tintColor = colorAle
