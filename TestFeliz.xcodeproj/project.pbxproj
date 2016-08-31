@@ -47,6 +47,7 @@
 		CF1F5CE31D76400F00B3084E /* TestFelizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFelizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1F5CE71D76400F00B3084E /* TestFelizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFelizUITests.swift; sourceTree = "<group>"; };
 		CF1F5CE91D76400F00B3084E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1F5CF61D764F3800B3084E /* MyPlayground_prueba.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground_prueba.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				CF1F5CCE1D76400F00B3084E /* Assets.xcassets */,
 				CF1F5CD01D76400F00B3084E /* LaunchScreen.storyboard */,
 				CF1F5CD31D76400F00B3084E /* Info.plist */,
+				CF1F5CF51D764F0500B3084E /* Playground */,
 			);
 			path = TestFeliz;
 			sourceTree = "<group>";
@@ -123,6 +125,14 @@
 				CF1F5CE91D76400F00B3084E /* Info.plist */,
 			);
 			path = TestFelizUITests;
+			sourceTree = "<group>";
+		};
+		CF1F5CF51D764F0500B3084E /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				CF1F5CF61D764F3800B3084E /* MyPlayground_prueba.playground */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +513,7 @@
 				CF1F5CEE1D76400F00B3084E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1F5CEF1D76400F00B3084E /* Build configuration list for PBXNativeTarget "TestFelizTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +522,7 @@
 				CF1F5CF11D76400F00B3084E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1F5CF21D76400F00B3084E /* Build configuration list for PBXNativeTarget "TestFelizUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +531,7 @@
 				CF1F5CF41D76400F00B3084E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
